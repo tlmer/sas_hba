@@ -1,0 +1,9 @@
+*.o
+*.a
+# ⚠ 逐条列 TB 可执行（勿用 /model/tb_*：会把 tb_*.cpp 源码一并 ignor ✗ 先例实踩 ✓）
+/model/tb/tb_hba_regs
+/model/tb/tb_pair_bringup
+/model/tb/tb_neg
+/model/tb/tb_hdd_scsi
+*.bak*
+build/
